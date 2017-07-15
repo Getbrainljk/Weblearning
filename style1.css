@@ -1,0 +1,98 @@
+
+/* Centre button */
+#animater {
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    height: 6vw;
+    font-size: 4vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+/* Squares */
+#s1 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background: red;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border: 1vw solid yellow;
+    box-sizing: border-box;
+}
+#s1 h2 {
+    color: darkturquoise;
+    width: 15vw;
+    height: 15vw;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    font-size: 2vw;
+}
+
+#s2 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border: 1vw solid indigo;
+    background: dodgerblue;
+    box-sizing: border-box;
+}
+
+#s2 h2 {
+    text-align: center;
+    vertical-align: middle;
+    width: 15vw;
+    height: 15vw;
+    font-size: 2vw;
+    display: table-cell;
+    color: sandybrown;
+}
+
+#s3 {
+    position: absolute;
+    vertical-align: middle;
+    width: 15vw;
+    height: 15vw;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border: 1vw solid black;
+    background: darkseagreen;
+    box-sizing: border-box;
+}
+#s3 h2 {
+    text-align: center;
+    vertical-align: middle;
+    width: 15vw;
+    height: 15vw;
+    font-size: 2vw;
+    display: table-cell;
+    color: olive;
+}
+
+#s4 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border: 1vw solid slategrey;
+    background: orange;
+    box-sizing: border-box;
+}
+
+#s4 h2 {
+    vertical-align: middle;
+    text-align: center;
+    width: 15vw;
+    height: 15vw;
+    font-size: 2vw;
+    display: table-cell;
+    color: darkorchid;
+}
